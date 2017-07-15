@@ -1,0 +1,109 @@
+﻿div.box{
+	background: red;
+	border-style: dotted;
+	border-radius: 23°;
+	position: absolute;
+    bottom: -1545px;
+    width: 100px;
+    height: 100px;
+    transition-property: width, height, background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+	font-size: 10px;
+	transition: transform 2s linear;
+}
+div.box:hover{
+	border-color: blue;
+	background: lightblue;
+	border-style: solid;
+	border-radius: 20%;
+	position: absolute;
+    bottom: -155px;
+    width: 500px;
+    height: 500px;
+    transform: rotate(180deg);
+}
+div.galaxia{
+	border-color: darkblue;
+	background: darkblue;
+	border-style:solid;
+	position: absolute;
+    bottom: -1545px;
+    width: 500px;
+    height: 700px;
+}
+div.sol{
+	border-color: yellow;
+	background: linear-gradient(to left, lightyellow, yellow);
+	border-radius:50%;
+	border-style:solid;
+	position: relative;
+    bottom: -269px;
+    left: 180px;
+    width: 100px;
+    height: 100px;
+    z-index:4;
+    
+}
+div.tierra{
+	width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 50%;
+    border-style:dotted;
+    border-color:white;
+    position: relative;
+    bottom: -280px;
+    left: 20px;
+    z-index:4;
+    transition: transform 2s linear;
+}
+div.estrella{
+	width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 40%;
+    position: relative;
+    bottom: -358px;
+    left: 350px;
+}
+div.tierra:hover{
+	width: 110px;
+    height: 110px;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    border-style:dotted;
+    border-color:white;
+    bottom: -280px;
+    left: 20px;
+    z-index:4;
+    transform: rotate(100deg) translate(-300px,-500px);
+}
+.obra{
+	background: url(https://cdn4.iconfinder.com/data/icons/user-interface-v1-1/64/plus_add_additional_more_cross_adding_interface-128.png);
+    width: 23%;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin: 1%;
+}
+.foto1{
+	width: 75px;
+    position: relative;
+    top: 69px;
+    left: -17PX;
+}
+.foto2{
+	width: 79px;
+    position: relative;
+    top: 51px;
+    left: 12PX;
+}
+.foto3{
+	width: 83px;
+    position: relative;
+    top: 71px;
+    left: 19PX;
+}
